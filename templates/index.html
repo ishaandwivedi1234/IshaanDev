@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hello Bulma!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css"
+    />
+    <script src="static/utilities.js"></script>
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io">
+          <img src="static/img/logos.png" width="112" height="28" />
+        </a>
+
+        <a
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item"> Home </a>
+
+          <a class="navbar-item"> Blogs </a>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link"> More </a>
+
+            <div class="navbar-dropdown">
+              <a class="navbar-item"> About </a>
+              <a class="navbar-item"> Jobs </a>
+              <a class="navbar-item"> Contact </a>
+              <hr class="navbar-divider" />
+              <a class="navbar-item"> Report an issue </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+              <a class="button is-primary">
+                <strong>Sign up</strong>
+              </a>
+              <a class="button is-light"> Log in </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="section">
+      <div class="container">
+        <center>
+          <article class="message">
+            <div class="message-body">
+              Hello Friends
+              <i
+                class="em em-wave"
+                aria-role="presentation"
+                aria-label="WAVING HAND SIGN"
+              ></i
+              >! Welcome to Ishaan's Dev , I am
+
+              <strong>Ishaan Dwivedi</strong>
+              <i
+                class="em em-bearded_person"
+                aria-role="presentation"
+                aria-label="BEARDED PERSON"
+              ></i>
+              A Future Engineer , you can explore me in this section of website
+              .
+            </div>
+          </article>
+        </center>
+      </div>
+      <br />
+      <div class="container">
+        <center>
+          <article class="message is-success">
+            <div class="message-body">
+              <strong class="is-tab"
+                >Who Am I ? ( Still Figuring Out
+                <i
+                  class="em em-anguished"
+                  aria-role="presentation"
+                  aria-label="ANGUISHED FACE"
+                ></i
+                >)
+              </strong>
+              <br />
+              <p>
+                <br />
+                Well , It pretty difficult question to answer
+                <i
+                  class="em em-bow"
+                  aria-role="presentation"
+                  aria-label="PERSON BOWING DEEPLY"
+                ></i>
+                But Let me try !
+              </p>
+              <p>
+                I am an engineering graduate persuing
+                <i
+                  class="em em-computer"
+                  aria-role="presentation"
+                  aria-label="PERSONAL COMPUTER"
+                ></i
+                >computer science engineering from
+                <i
+                  class="em em-school"
+                  aria-role="presentation"
+                  aria-label="SCHOOL"
+                ></i>
+                <span class="tag"
+                  >Jaypee University Of Engineering & Technology</span
+                ><br />
+                I am a passonate developer and competetive coding enthusiast.
+                Currently I am working as a Flutter Developer.
+                <br />
+                I like to play around new tech gadgets, Although I am a software
+                programmer but my intrests are vast and I love to just get my
+                hands dirty on some hardware stuffs as well .
+              </p>
+            </div>
+          </article>
+        </center>
+      </div>
+    </div>
+    {% comment %} projects Section {% endcomment %}
+    <div class="section">
+      <div class="container">
+        <div class="columns">
+          {% comment %} project 1 {% endcomment %}
+          <div class="column is-one-third-desktop is-full-tablet is-full-mobile">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by4">
+                  <img
+                    src="static/img/projects/stackshare.png"
+                    alt="Placeholder image"
+                  />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-48x48">
+                      <img
+                        src="https://bulma.io/images/placeholders/96x96.png"
+                        alt="Placeholder image"
+                      />
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <p class="title is-4">Stack Share Community</p>
+                    <p class="subtitle is-6">
+                    <div class="tags">
+               <span class="tag is-primary is-light">500 + Members</span>
+                      <span class="tag is-link is-light">Open Source</span>
+                      <span class="tag is-link is-light">Open Source</span>
+                      <span class="tag is-link is-light">Open Source</span>
+                </div>
+                    
+                    </p>
+                  </div>
+                </div>
+
+                <div class="content">
+                  An Flutter App for programmers to share and discuss coding
+                  problems .
+                  <span class="tag is-warning">Get App</span>
+                  <span class="tag is-danger">GitHub</span>
+
+                  <br />
+                  <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                </div>
+              </div>
+            </div>
+          </div>
+          {% comment %} project 2{% endcomment %}
+
+          <div class="column is-one-third-desktop is-full-tablet is-full-mobile">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-2by2">
+                  <img
+                    src="static/img/projects/cardfy.png"
+                    alt="Placeholder image"
+                  />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-48x48">
+                      <img
+                        src="https://bulma.io/images/placeholders/96x96.png"
+                        alt="Placeholder image"
+                      />
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <p class="title is-4">Cardfy - Digital Cards</p>
+                    <p class="subtitle is-6">
+                      <span class="tag is-danger is-light"
+                        >Won UtkalHacks 3.0</span
+                      >
+                      <span class="tag is-link is-light">Open Source</span>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                  <a href="#">#css</a> <a href="#">#responsive</a>
+                  <br />
+                  <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                </div>
+              </div>
+            </div>
+          </div>
+          {% comment %} project 3 {% endcomment %}
+
+          {% comment %} <div class="column is-one-quarter-desktop is-full-tablet is-full-mobile">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img
+                    src="https://bulma.io/images/placeholders/1280x960.png"
+                    alt="Placeholder image"
+                  />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-48x48">
+                      <img
+                        src="https://bulma.io/images/placeholders/96x96.png"
+                        alt="Placeholder image"
+                      />
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <p class="title is-4">Bussified - Bus Reservations</p>
+                    <p class="subtitle is-6">@johnsmith</p>
+                  </div>
+                </div>
+
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                  <a href="#">#css</a> <a href="#">#responsive</a>
+                  <br />
+                  <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                </div>
+              </div>
+            </div>
+          </div> {% endcomment %}
+          {% comment %} project 4 {% endcomment %}
+
+          <div class="column is-one-third-desktop is-full-tablet is-full-mobile">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img
+                    src="https://bulma.io/images/placeholders/1280x960.png"
+                    alt="Placeholder image"
+                  />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-48x48">
+                      <img
+                        src="https://bulma.io/images/placeholders/96x96.png"
+                        alt="Placeholder image"
+                      />
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <p class="title is-4">Ninja Book Mark Manager</p>
+                    <p class="subtitle is-6">@johnsmith</p>
+                  </div>
+                </div>
+
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                  <a href="#">#css</a> <a href="#">#responsive</a>
+                  <br />
+                  <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
